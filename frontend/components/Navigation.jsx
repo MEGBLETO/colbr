@@ -80,27 +80,27 @@ const Navigation = () => {
            <ul className="absolute left-0 right-0 bg-black h-screen top-[12vh] md:top-[10vh] w-full flex flex-col ">
             <div className="flex flex-col h-1/2 justify-between place-items-center p-10">
             <Link href="/">
-             <li>
+             <li className="cursor-pointer">
                <a>Investir</a>
              </li>
            </Link>
-           <Link href="/">
-             <li>
+           <Link  href="/">
+             <li className="cursor-pointer">
                <a>Advisory</a>
              </li>
            </Link>
            <Link href="/">
-             <li>
+             <li className="cursor-pointer">
                <a>Devenir membre</a>
              </li>
            </Link>
            <Link href="/">
-             <li>
+             <li className="cursor-pointer">
                <a>L'équipe</a>
              </li>
            </Link>
            <Link href="/login">
-             <li>
+             <li className="cursor-pointer"> 
               <BsPerson className="h-[100px] w-[50px]"/>
              </li>
            </Link>
